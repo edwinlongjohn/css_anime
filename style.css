@@ -1,0 +1,30 @@
+.ella{
+    border: solid 5px black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 2px;
+    animation:4s linear 1s infinite reverse both  anime;
+   
+}
+
+@keyframes anime{
+    0%   {background-color:red; left:0; top: 0px;}
+    50%  {background-color:blue; left: 70%; top:0px;}
+    100%  {background-color:radial-gradient(rgba(136, 78, 24, 0.6)); top:0px; left:0px;}
+   
+}
+.priceless{
+    border: solid 5px black;
+    width: 75%;
+    height: 100px;
+    position:absolute;
+    bottom:100%;
+    top:7px;
+    animation: 6s linear 1s infinite slide-in;
+}
+@keyframes slide-in{
+from{transfrom: scaleX(0); background-color: royalblue; }
+to {transform:scaleX(1); background-color: red;  }
+
+}
